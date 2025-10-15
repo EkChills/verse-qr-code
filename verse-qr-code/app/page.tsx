@@ -1,9 +1,9 @@
 "use client";
 
-import { QRCodeCanvas } from "qrcode.react";
+// import { QRCodeCanvas } from "qrcode.react";
 
 export default function Home() {
-  const url = "https://www.versetechnologies.org/";
+  // const url = "https://www.versetechnologies.org/";
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-white">
@@ -11,7 +11,7 @@ export default function Home() {
         Verse Technologies QR Code
       </h1>
 
-      <div className="flex items-center justify-center bg-white rounded-2xl shadow-lg border border-gray-200 p-6">
+      {/* <div className="flex items-center justify-center bg-white rounded-2xl shadow-lg border border-gray-200 p-6">
         <div className="flex items-center justify-center w-[240px] h-[240px]">
           <QRCodeCanvas
             value={url}
@@ -27,7 +27,7 @@ export default function Home() {
 
       <p className="mt-6 text-gray-600 text-sm">
         Scan to visit <span className="font-medium">versetechnologies.org</span>
-      </p>
+      </p> */}
     </div>
   );
 }
